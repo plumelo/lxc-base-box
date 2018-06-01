@@ -5,5 +5,4 @@ sudo rm -rf rootfs
 mkdir box
 cp -v metadata.json lxc-config rootfs.tar.gz box
 tar -czf xenial64.box box/*
-sudo rm -rf box
-
+sudo rm -rf box rootfs.tar.gz
